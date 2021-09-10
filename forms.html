@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <hr>
+    <br>
+    <form action="/tacos">
+    <div>
+        <label for="username">Enter ur username</label>
+    <input type="text" placeholder="username" id = "username" name="Username"></div><br>
+   
+   <div>
+    <label for="Password">Enter ur Password</label>
+    <input type="password" placeholder="password" id = "Password" name="Password"></div><br>
+    
+    <div>
+        <label for="color">Select a color</label>
+    <input type="color" placeholder="color" id = "color" name="Color"></div><br>
+    <p><div>
+        <label for="file">Select a file</label>
+    <input type="file" placeholder="select a file" id ="file" name="File"></div><br></p>
+   <button type="submit">Bhej</button>
+   <button type="button">Bhej2.0</button>
+   <input type="submit" value="Bhej3.0">
+
+   
+
+</form>
+<br><hr><p>
+</form>
+<form action="https://www.google.com/search">
+    <input type="text" placeholder="search" name="q">
+    <button type="submit">submit</button> 
+
+</form></p>
+
+<p>
+</form>
+<form action="https://www.youtube.com/results">
+    <input type="text" placeholder="search" name="search_query">
+    <button type="submit">submit</button> 
+
+</form></p>
+<form>
+<h2>More inputs</h2>
+<input type="checkbox" name="agree_tos" id="agree" checked>
+<label for="agree">I agree to all</label>
+<p>
+    <label for="xs">XS:</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="s">S:</label>
+    <input type="radio" name="size" id="s" value="s">
+    <label for="l">L:</label>
+    <input type="radio" name="size" id="l" value="l">
+</p>
+<p>
+    <label for="meal">Please Select an Entree</label>
+    <select name="meal" id="meal">
+        <option value="fish">Fish</option>
+        <option value="veg">Vegetarian</option>
+        <option value="steak">Steak</option>
+
+    </select>
+</p>
+<button>Submit</button>
+<p>
+    <label for="requests">Any special request?</label>
+    <br>
+    <textarea placeholder="Type here..." id="requests" rows="10" col="40" name="requests"></textarea>
+</p>
+<button>Submit</button>
+</form>
+<h2>Validations Demo</h2>
+<form action="/dummy">
+<label for="first">Enter first name</label>
+<input type="text" id="first" name="first" required>
+<button>Submit</button>
+
+</form>
+
+</body>
+</html>

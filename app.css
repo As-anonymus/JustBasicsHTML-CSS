@@ -1,0 +1,15 @@
+h2{
+    color:teal;
+    background-color:rgb(89,151,0);
+} 
+button{
+    color:magenta;
+    background-color:cyan;
+}
+p{
+    color:darkgreen;
+    background: orange;
+}
+body{
+    background-color:#cc55ee;
+}

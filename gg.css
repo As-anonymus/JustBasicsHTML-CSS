@@ -1,0 +1,100 @@
+/* *{Universal
+    background-color: cyan;
+}*/
+
+body{
+    background: color #f1faee;
+}
+button{
+font-size: 30px;
+background-color: #a8dadc;
+}
+
+h1,h2{
+    color: darkslateblue;
+}
+
+#signup{/*ID*/
+    background-color: #1d3557;
+    color:#f1faee;
+}
+
+span{
+    color: #457b9d;
+}
+
+.tag{/*class*/
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+footer a{/* for nessted*/
+color: #cc0c0cd5;
+
+}
+
+h2 + button{/*for styling some tag just after*/
+    font-size:20px;
+    background-color:magenta;
+}
+
+footer > a{/*direct decendant*/
+    color: #0b6e1cd5;
+}
+
+input[type="password"]{/*if u want to change inside*/
+    color: #7b36a8d5;
+
+}
+
+a[href*="google"]{
+    color: #bc89dfd5;
+}
+
+/* section.post ==== section with class of post*/
+
+.post button:hover{
+    background-color:red;
+    color:#f1faee;
+}
+.post a{
+    text-decoration:none;
+    font-weight: 700;
+}
+a:hover{/*when hover it shows*/
+    text-decoration:underline;
+}
+
+.post button:active{/*when clicked then shows*/
+    background-color:#02c39a}
+   
+   
+    .post:nth-of-type(3n){/*to style specific no. of */
+        background-color: #dfe8dc;
+
+    }
+
+    h2::first{/*Pseudo */
+        font-size:50px;
+    }
+
+    p::first-line{
+        color:purple;
+    }
+
+    p::selection{/*wahi mouse se highlight*/
+        background-color:yellow;
+    }
+
+    /*cascade-- the laater declaration is taken if same tag used twice
+    even the css files */
+
+    button:hover{
+        background-color:olive;
+        font-size: 10px;
+    }
+
+    /*specificity==jitna detailed hoga usko select karega*
+    
+    Inline style*never*>>ID>>class>>element*/
